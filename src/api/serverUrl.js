@@ -1,1 +1,3 @@
-export default "https://hyaepmoqs7.execute-api.eu-central-1.amazonaws.com/dev";
+const serverApiUrl = process.env.REACT_APP_SERVER_API_URL;
+
+export default serverApiUrl;
